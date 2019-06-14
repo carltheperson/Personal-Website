@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+	"main",
+	"static_projects"
 ]
 
 MIDDLEWARE = [
@@ -55,7 +57,7 @@ ROOT_URLCONF = 'personalsite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, "static_projects/static/static_projects")],
+        'DIRS': [os.path.join(BASE_DIR, "static_projects/static/static_projects"), os.path.join(BASE_DIR, "main/templates/main"), os.path.join(BASE_DIR, "main/static/main")],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

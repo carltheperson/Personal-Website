@@ -6,7 +6,7 @@ const recipeBtns = document.getElementsByClassName("recipe-btn");
 const closeBtns = document.getElementsByClassName("close");
 
 let recipeBlocksToIndex = []; // Array with the recipeContainers indexes corresponding to the ones in RECIPES.js
-backBtn.addEventListener("click", () => window.location.href = "/static-projects/random-recipes"); // Goes back to index.html
+backBtn.addEventListener("click", () => window.location.href = "/projects/random-recipes"); // Goes back to index.html
 
 
 // Adds close and display full recipe event listers
