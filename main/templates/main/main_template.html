@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	{% load static %}
+	<!--<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">  -->
+	<link rel="stylesheet" href="{% static "main/style.css" %}">
+	<title>{% block 'title' %}{% endblock %}</title>
+</head>
+<body>
+	<header>
+		<h1>Carl Riis</h1>
+		<nav>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/about-me/">About me</a></li>
+				<li><a href="/projects/">Projects</a></li>
+				<li><a href="/contact/">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	{% block 'body' %}
+	{% endblock %}
+
+	<footer>
+		<a href="https://github.com/carlriis" target="_blank" class="button">GitHub</a>
+		<p>Email: carltheperson@protonmail.com</p>
+		<ul id="footer-ul">
+			<li><a href="/" class="footer-link">Home</a></li>
+			<li><a href="/about-me/" class="footer-link">About me</a></li>
+			<li><a href="/projects/" class="footer-link">Projects</a></li>
+			<li><a href="/contact/" class="footer-link">Contact</a></li>
+		</ul>	
+	</footer>
+</body>
+</html>

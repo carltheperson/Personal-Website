@@ -1,4 +1,35 @@
-{% extends 'main.html' %} 
+{% extends 'main_template.html' %} 
+{% block 'title' %}Carl Riis{% endblock %}
+
 {% block 'body' %}
-<h2>This is the home.html</h2>
+<div class="page-body">
+	<div id="title"></div>
+
+	<p id="description">I made this website to host my projects and practice web development. It's made with Python Django, HTML, CSS and Javascript. It's all hosted on my Raspberry Pi. Feel free to look around.</p>
+
+	<a href="/projects/" class="button">Projects</a>
+	<a href="/about-me/" class="button">About me</a>
+
+</div>
+
+<script>
+	let title = document.getElementById("title");
+	let text = "Hi, welcome to my website";
+	let i = 0;
+
+	function typeNewLetter() {
+		if (i < text.length) {
+			title.innerHTML += text.charAt(i);
+			i++
+			if (text.charAt(i) == " ") {
+				setTimeout(typeNewLetter, Math.random() * (175 - 80) + 20);
+			} else {
+				setTimeout(typeNewLetter, Math.random() * (150 - 50) + 20);
+			}
+		}
+	}
+
+	typeNewLetter();
+
+</script>
 {% endblock %}
