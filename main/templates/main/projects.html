@@ -3,17 +3,18 @@
 
 {% block 'body' %}
 <div class="page-body">
-	<p>Below are my projects:</p>
+	<h1 class="title projects-title">Projects</h1>
+
 	{% for project in projects %}
 		<div class="project">
-			<h2>{{project.title}}</h2>
-			<p>{{project.description}}</p>
-			<a href="{{project.github_link}}" target="_blank" class="button">GitHub</a>
+			<h2 class="project-title">{{project.title}}</h2>
+			<p class="project-description">{{project.description}}</p>
+			<img src="{{project.image.url}}" alt="" class="project-image">
+			<br>
+			<a href="{{project.github_link}}" target="_blank" class="button git-button">GitHub</a>
 			{% if project.link %}
 			<a href="{{project.link}}" target="_blank" class="button">Visit</a>
 			{% endif %}
-
-			<img src="{{project.image.url}}" alt="">
 
 		</div>
 	{% endfor %}

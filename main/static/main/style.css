@@ -97,6 +97,7 @@ footer {
 
 #description {
 	font-size: 25px;
+	width: 60%;
 }
 
 .page-body .button {
@@ -171,4 +172,38 @@ h3 {
 
 #email {
 	text-align: center;
+}
+
+/* projects.html */
+.project {
+	width: 55%;
+	border: white 2px solid;
+	border-radius: 15px;
+
+	margin: 10px;
+	margin-top: 40px;
+
+	padding: 20px;
+}
+
+.projects-title {
+	margin-top: 50px;
+	margin-bottom: 60px;
+	font-size: 75px;
+}
+
+.project-image {
+	width: 50%;
+}
+
+.project .button {
+	margin-right: 10px;
+}
+
+.project-title {
+	margin-top: 10px;
+}
+
+.project-description {
+	font-size: 22px;
 }
