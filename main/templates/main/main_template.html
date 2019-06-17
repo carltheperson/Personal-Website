@@ -12,8 +12,10 @@
 <body>
 	<header>
 		<a href="/"><h1>Carl Riis</h1></a>
+		{% load static %}
+		<img src="{% static "main/burger.svg" %}" alt="menu" id="burger">
 		<nav>
-			<ul>
+			<ul class="navbar">
 				<li><a href="/">Home</a></li>
 				<li><a href="/about-me/">About me</a></li>
 				<li><a href="/projects/">Projects</a></li>
@@ -35,5 +37,20 @@
 			<li><a href="/contact/" class="footer-link">Contact</a></li>
 		</ul>	
 	</footer>
+
+	<script>
+			(function(){
+				let menu = document.querySelector(".navbar");
+				let menulink = document.getElementById("burger");
+
+				menulink.addEventListener("click", function(e){
+					menu.classList.toggle("active");
+					e.preventDefault();
+					console.log("actiiǘe")
+				});
+
+			})();
+		</script>
+
 </body>
 </html>
