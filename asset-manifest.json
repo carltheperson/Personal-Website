@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "https://carlriis.github.io/personal-website/static/css/main.f0af57d1.chunk.css",
-    "main.js": "https://carlriis.github.io/personal-website/static/js/main.925fca4e.chunk.js",
-    "main.js.map": "https://carlriis.github.io/personal-website/static/js/main.925fca4e.chunk.js.map",
-    "runtime-main.js": "https://carlriis.github.io/personal-website/static/js/runtime-main.507dec29.js",
-    "runtime-main.js.map": "https://carlriis.github.io/personal-website/static/js/runtime-main.507dec29.js.map",
-    "static/js/2.adfa4518.chunk.js": "https://carlriis.github.io/personal-website/static/js/2.adfa4518.chunk.js",
-    "static/js/2.adfa4518.chunk.js.map": "https://carlriis.github.io/personal-website/static/js/2.adfa4518.chunk.js.map",
-    "index.html": "https://carlriis.github.io/personal-website/index.html",
-    "precache-manifest.753c625cf822c610e0fba66ef2231f6f.js": "https://carlriis.github.io/personal-website/precache-manifest.753c625cf822c610e0fba66ef2231f6f.js",
-    "service-worker.js": "https://carlriis.github.io/personal-website/service-worker.js",
-    "static/css/main.f0af57d1.chunk.css.map": "https://carlriis.github.io/personal-website/static/css/main.f0af57d1.chunk.css.map",
-    "static/js/2.adfa4518.chunk.js.LICENSE.txt": "https://carlriis.github.io/personal-website/static/js/2.adfa4518.chunk.js.LICENSE.txt",
-    "static/media/burger.svg": "https://carlriis.github.io/personal-website/static/media/burger.9a4b0be3.svg"
+    "main.css": "https://carlriis.github.io/Personal-Website/static/css/main.f0af57d1.chunk.css",
+    "main.js": "https://carlriis.github.io/Personal-Website/static/js/main.925fca4e.chunk.js",
+    "main.js.map": "https://carlriis.github.io/Personal-Website/static/js/main.925fca4e.chunk.js.map",
+    "runtime-main.js": "https://carlriis.github.io/Personal-Website/static/js/runtime-main.32017a4f.js",
+    "runtime-main.js.map": "https://carlriis.github.io/Personal-Website/static/js/runtime-main.32017a4f.js.map",
+    "static/js/2.adfa4518.chunk.js": "https://carlriis.github.io/Personal-Website/static/js/2.adfa4518.chunk.js",
+    "static/js/2.adfa4518.chunk.js.map": "https://carlriis.github.io/Personal-Website/static/js/2.adfa4518.chunk.js.map",
+    "index.html": "https://carlriis.github.io/Personal-Website/index.html",
+    "precache-manifest.2c37072657193a9915fb6a5368775c70.js": "https://carlriis.github.io/Personal-Website/precache-manifest.2c37072657193a9915fb6a5368775c70.js",
+    "service-worker.js": "https://carlriis.github.io/Personal-Website/service-worker.js",
+    "static/css/main.f0af57d1.chunk.css.map": "https://carlriis.github.io/Personal-Website/static/css/main.f0af57d1.chunk.css.map",
+    "static/js/2.adfa4518.chunk.js.LICENSE.txt": "https://carlriis.github.io/Personal-Website/static/js/2.adfa4518.chunk.js.LICENSE.txt",
+    "static/media/burger.svg": "https://carlriis.github.io/Personal-Website/static/media/burger.9a4b0be3.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.507dec29.js",
+    "static/js/runtime-main.32017a4f.js",
     "static/js/2.adfa4518.chunk.js",
     "static/css/main.f0af57d1.chunk.css",
     "static/js/main.925fca4e.chunk.js"
