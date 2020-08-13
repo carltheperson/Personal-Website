@@ -1,0 +1,43 @@
+h1 {
+  font-size: 6rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.welcome-text {
+  font-size: 2rem;
+  margin-bottom: calc(100px + 10%);
+}
+
+img {
+  cursor: pointer;
+}
+
+.welcome img:hover {
+  animation: bounce 0.75s ease;
+}
+
+.about {
+  font-size: 2rem;
+  color: #595959;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.welcome div {
+  text-align: center;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(10px);
+  }
+}

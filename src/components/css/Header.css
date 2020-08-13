@@ -1,11 +1,11 @@
-.header .logo {
+.logo {
   font-size: 10em;
   font-weight: 900;
   color: #6c6c6c;
   margin: 10px;
 }
 
-.header .burger {
+.burger {
   animation: fadeIn ease 1s;
 }
 
@@ -23,6 +23,7 @@
   list-style-type: none;
   font-size: 2rem;
   text-align: right;
+  z-index: 1000;
 }
 
 .menu li {
