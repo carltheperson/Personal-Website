@@ -1,0 +1,63 @@
+.header .logo {
+  font-size: 10em;
+  font-weight: 900;
+  color: #6c6c6c;
+  margin: 10px;
+}
+
+.header .burger {
+  animation: fadeIn ease 1s;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.menu {
+  float: right;
+  margin: 0 0 0 auto;
+  padding: 20px 20px 0 0;
+  list-style-type: none;
+  font-size: 2rem;
+  text-align: right;
+}
+
+.menu li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #6c6c6c;
+}
+
+.menu .inactive {
+  opacity: 0;
+  animation: fadeOut ease 0.4s;
+}
+
+.menu .hidden {
+  opacity: 0;
+}
+
+.menu .active {
+  animation: fadeIn ease 0.4s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
