@@ -1,4 +1,4 @@
-h1 {
+.welcome h1 {
   font-size: 6rem;
   text-align: center;
   margin-bottom: 10px;
@@ -17,7 +17,7 @@ h1 {
   margin-bottom: calc(100px + 10%);
 }
 
-img {
+.welcome img {
   cursor: pointer;
 }
 
@@ -25,7 +25,7 @@ img {
   animation: bounce 0.75s ease;
 }
 
-.about {
+.welcome .about {
   font-size: 2rem;
   color: #595959;
   margin-bottom: 0;

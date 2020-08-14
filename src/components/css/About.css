@@ -1,0 +1,45 @@
+h1 {
+  font-size: 5rem;
+  color: black;
+}
+
+.about .container {
+  display: flex;
+  margin: 0 5% 0 5%;
+}
+
+.about img {
+  position: absolute;
+}
+
+.about .me-img {
+  top: 50px;
+  left: 50px;
+}
+
+.about .me {
+  position: relative;
+  width: 25%;
+}
+
+.about .description {
+  width: 40%;
+  font-size: 2rem;
+  margin: auto;
+}
+
+.about .download-text {
+  font-weight: bolder;
+  text-decoration: underline;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+.about .pdf-icon {
+  width: 60px;
+}
+
+.about .download-container {
+  display: flex;
+  cursor: pointer;
+}

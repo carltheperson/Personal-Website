@@ -30,6 +30,7 @@
   margin-bottom: 10px;
   cursor: pointer;
   color: #6c6c6c;
+  padding: 5px;
 }
 
 .menu .inactive {
@@ -42,6 +43,7 @@
 }
 
 .menu .active {
+  background-color: #f0f0f0;
   animation: fadeIn ease 0.4s;
 }
 
