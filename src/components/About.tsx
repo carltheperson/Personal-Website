@@ -38,14 +38,14 @@ export const About: React.FC<Props> = ({ ref_ }) => {
             className="download-container"
             onClick={() =>
               FileSaver.saveAs(
-                process.env.PUBLIC_URL + "/files/test.txt",
-                "test.txt"
+                process.env.PUBLIC_URL + "/files/cv.pdf",
+                "Carl Riis CV.pdf"
               )
             }
           >
             <img src={pdfIcon} alt="Pdf icon" className="pdf-icon" />
             <div>
-              <p className="download-text">Download CV</p>
+              <p className="download-text">Download CV (Danish)</p>
             </div>
           </div>
         </div>
