@@ -7,9 +7,13 @@ const me = require("../media/me.png");
 const outline = require("../media/outline.png");
 const pdfIcon = require("../media/pdf-icon.svg");
 
-export default () => {
+interface Props {
+  ref_: React.MutableRefObject<null>;
+}
+
+export const About: React.FC<Props> = ({ ref_ }) => {
   return (
-    <div className="about">
+    <div className="about" ref={ref_}>
       <div className="container">
         <div className="me">
           <img src={outline} alt="outline" />

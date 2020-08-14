@@ -5,9 +5,13 @@ import "./css/Contact.css";
 const emailIcon = require("../media/email-icon.svg");
 const phoneIcon = require("../media/phone-icon.svg");
 
-export default () => {
+interface Props {
+  ref_: React.MutableRefObject<null>;
+}
+
+export const Contact: React.FC<Props> = ({ ref_ }) => {
   return (
-    <div className="contact">
+    <div className="contact" ref={ref_}>
       <h1>Contact</h1>
       <div className="text-container">
         <p>

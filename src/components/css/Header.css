@@ -33,6 +33,10 @@
   padding: 5px;
 }
 
+.menu p {
+  margin: 0;
+}
+
 .menu .inactive {
   opacity: 0;
   animation: fadeOut ease 0.4s;
