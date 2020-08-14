@@ -1,37 +1,48 @@
-h1 {
-  font-size: 5rem;
+.about h1 {
+  font-size: 3em;
   color: black;
 }
 
 .about .container {
   display: flex;
-  margin: 0 5% 0 5%;
+  margin: 0 5% 0 8%;
 }
 
-.about img {
+.about .me img {
+  width: 65%;
   position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 50px;
 }
 
+.about .outline {
+  max-width: 1300px;
+}
 .about .me-img {
-  top: 50px;
-  left: 50px;
+  width: 50% !important;
+  max-width: 1000px;
+  padding-top: 50px;
 }
 
 .about .me {
   position: relative;
-  width: 25%;
+  width: 40%;
 }
 
 .about .description {
   width: 40%;
-  font-size: 2rem;
+  font-size: 2em;
   margin: auto;
 }
 
 .about .download-text {
   font-weight: bolder;
   text-decoration: underline;
-  margin-left: 70px;
+  margin-left: 10px;
 }
 
 .about .pdf-icon {
@@ -42,4 +53,69 @@ h1 {
   display: flex;
   align-items: center;
   cursor: pointer;
+}
+
+@media only screen and (max-device-width: 1200px) {
+  .about .description {
+    width: 60%;
+    padding-left: 20%;
+  }
+
+  .about .outline {
+    padding-top: 50px;
+    width: 100% !important;
+  }
+
+  .about .me-img {
+    padding-top: 50px;
+
+    width: 70% !important;
+  }
+}
+
+@media only screen and (max-device-width: 800px) {
+  .about .container {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .about .outline {
+    width: 200px !important;
+    padding-top: 110px;
+    display: block;
+  }
+
+  .about .me-img {
+    width: 150px !important;
+    padding-top: 110px;
+    display: block;
+  }
+
+  .about h1 {
+    margin-bottom: 200px !important;
+    margin-top: -122.5px;
+  }
+
+  .about .description {
+    padding-left: 0;
+    text-align: center;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-device-width: 500px) {
+  .about .outline {
+    width: 100% !important;
+  }
+
+  .about .me-img {
+    width: 80% !important;
+  }
+
+  .about h1 {
+    margin-bottom: 170px;
+  }
 }

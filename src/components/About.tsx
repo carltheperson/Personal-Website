@@ -16,7 +16,7 @@ export const About: React.FC<Props> = ({ ref_ }) => {
     <div className="about" ref={ref_}>
       <div className="container">
         <div className="me">
-          <img src={outline} alt="outline" />
+          <img src={outline} alt="outline" className="outline" />
           <img src={me} alt="me" className="me-img" />
         </div>
         <div className="description">

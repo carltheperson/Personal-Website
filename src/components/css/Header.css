@@ -11,19 +11,22 @@
 
 .header {
   display: flex;
-  width: 100%;
   align-items: flex-start;
+  z-index: 1000;
   position: absolute;
 }
 
 .menu {
-  float: right;
-  margin: 0 0 0 auto;
-  padding: 20px 20px 0 0;
+  position: fixed;
+  right: 0;
+  /* padding: 20px 20px 0 0; */
+  padding: 0 !important;
+  margin: 0 !important;
+  padding-right: 15px !important;
+  margin-top: -7.5px;
   list-style-type: none;
-  font-size: 2rem;
+  font-size: 2em;
   text-align: right;
-  z-index: 1000;
 }
 
 .menu li {
@@ -66,5 +69,23 @@
   }
   100% {
     opacity: 0;
+  }
+}
+
+@media only screen and (max-device-width: 700px) {
+  .active {
+    box-shadow: 18px 9px 29px -13px rgba(0, 0, 0, 0.56);
+    border: 1px rgb(207, 207, 207) solid;
+  }
+
+  .menu {
+    font-size: 2.5em;
+    padding: 20px 20px 0 0;
+    margin-right: 10px;
+    margin-top: 3px;
+  }
+
+  .logo {
+    font-size: 6em;
   }
 }

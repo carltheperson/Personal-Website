@@ -1,7 +1,12 @@
 .contact h1 {
   text-align: center;
   margin-bottom: 0;
-  margin-top: 125px;
+  margin-top: 160px;
+  font-size: 5em;
+}
+
+.contact img {
+  width: 40px;
 }
 
 .contact .text-container {
@@ -10,7 +15,7 @@
   margin: auto;
 }
 .contact .text-container p {
-  font-size: 2.5rem;
+  font-size: 2.5em;
   margin-top: 30px;
 }
 
@@ -21,7 +26,7 @@
 }
 
 .contact-container {
-  font-size: 2.5rem;
+  font-size: 2.5em;
   display: flex;
   align-items: center;
   width: fit-content;
@@ -31,4 +36,14 @@
   color: #343434;
   text-decoration: none;
   margin-left: 10px;
+}
+
+@media only screen and (max-device-width: 500px) {
+  .contact-container a {
+    font-size: 0.9em;
+  }
+
+  .contact .text-container {
+    width: 85%;
+  }
 }

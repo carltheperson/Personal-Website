@@ -24,6 +24,8 @@ export const Header: React.FC<Props> = ({ pageContext }) => {
     if (ref !== null && ref.current !== null) {
       // @ts-ignore: Object is possibly 'null'.
       window.scrollTo({ behavior: "smooth", top: ref.current.offsetTop });
+      setLocked(false);
+      setLooking(false);
     }
   };
 

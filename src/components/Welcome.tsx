@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import Typed from "react-typed";
 import "./css/Welcome.css";
 
 const down = require("../media/down.svg");
@@ -25,9 +26,11 @@ export const Welcome: React.FC<Props> = ({ ref_, pageContext }) => {
   return (
     <div className="welcome" ref={ref_}>
       <div>
-        <h1>Hi, and welcome!</h1>
+        <h1>
+          <Typed strings={["Hi, and welcome!"]} typeSpeed={60} />
+        </h1>
         <p className="welcome-text">
-          This is my personal website, <br /> feel free to look around.
+          This is my personal website, <br /> feel free to look around.{" "}
         </p>
 
         <p className="about">About me</p>

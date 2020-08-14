@@ -1,19 +1,21 @@
 .welcome h1 {
-  font-size: 6rem;
+  font-size: 6em;
   text-align: center;
   margin-bottom: 10px;
+  margin-top: 75px;
 }
 
 .welcome {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 110vh;
   position: relative;
+  z-index: 1;
 }
 
 .welcome-text {
-  font-size: 2rem;
+  font-size: 2em;
   margin-bottom: calc(100px + 10%);
 }
 
@@ -26,7 +28,7 @@
 }
 
 .welcome .about {
-  font-size: 2rem;
+  font-size: 2em;
   color: #595959;
   margin-bottom: 0;
   cursor: pointer;
@@ -39,5 +41,18 @@
 @keyframes bounce {
   50% {
     transform: translateY(10px);
+  }
+}
+
+@media only screen and (max-device-width: 700px) {
+  .welcome .about {
+    display: none;
+  }
+
+  .welcome img {
+    display: none;
+  }
+  .welcome h1 {
+    font-size: 5em;
   }
 }
