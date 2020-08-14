@@ -1,0 +1,19 @@
+.footer {
+  background-color: #b9b9b9;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 1rem;
+}
+
+.footer .github-link {
+  color: black;
+}
+
+.footer div a {
+  color: #383838;
+  padding: 0 15px 0 15px;
+}
+
+.footer img {
+  cursor: pointer;
+}
