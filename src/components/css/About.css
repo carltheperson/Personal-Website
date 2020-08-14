@@ -32,7 +32,6 @@ h1 {
   font-weight: bolder;
   text-decoration: underline;
   margin-left: 70px;
-  margin-top: 10px;
 }
 
 .about .pdf-icon {
@@ -41,5 +40,6 @@ h1 {
 
 .about .download-container {
   display: flex;
+  align-items: center;
   cursor: pointer;
 }

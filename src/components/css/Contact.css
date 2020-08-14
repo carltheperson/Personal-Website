@@ -1,0 +1,34 @@
+.contact h1 {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 125px;
+}
+
+.contact .text-container {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+.contact .text-container p {
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+
+.contact-options {
+  margin: auto;
+  width: fit-content;
+  margin-bottom: 125px;
+}
+
+.contact-container {
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.contact-container a {
+  color: #343434;
+  text-decoration: none;
+  margin-left: 10px;
+}
