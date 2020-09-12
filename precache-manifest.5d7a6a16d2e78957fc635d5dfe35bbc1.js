@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9bc58db25d1a0968508e8b7a9f866e69",
+    "revision": "d47fefb06e3e5692670eb0f5c0b5f1c5",
     "url": "https://carlriis.github.io/Personal-Website/index.html"
   },
   {
-    "revision": "30f6f6e4ca03f32f0df4",
+    "revision": "d2ae261c8010fef392fb",
     "url": "https://carlriis.github.io/Personal-Website/static/css/main.5d8a2720.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://carlriis.github.io/Personal-Website/static/js/2.dd073d3c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "30f6f6e4ca03f32f0df4",
-    "url": "https://carlriis.github.io/Personal-Website/static/js/main.5f67ad00.chunk.js"
+    "revision": "d2ae261c8010fef392fb",
+    "url": "https://carlriis.github.io/Personal-Website/static/js/main.bd8819e5.chunk.js"
   },
   {
     "revision": "85beef0b40b33d3e9db0",
